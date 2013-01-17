@@ -9,6 +9,9 @@
 #import "helloViewController.h"
 
 @interface helloViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UILabel *labelText;
+- (IBAction)buttonPush:(id)sender;
 
 @end
 
@@ -26,4 +29,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPush:(id)sender {
+}
 @end
