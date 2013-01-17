@@ -38,6 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="buttonPush:" destination="2" eventType="editingDidEnd" id="vTo-tA-GM6"/>
                                     <outlet property="delegate" destination="2" id="IZZ-We-KdN"/>
                                 </connections>
                             </textField>
@@ -63,19 +64,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="helloViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/helloViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="buttonPush:"/>
-                <relationship kind="outlet" name="labelText" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

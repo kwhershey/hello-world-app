@@ -51,7 +51,10 @@
     
     if (theTextField == self.textField) {
         
+        
         [theTextField resignFirstResponder];
+        
+        
         
     }
     
