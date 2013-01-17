@@ -33,7 +33,7 @@
                                     <action selector="buttonPush:" destination="2" eventType="touchUpInside" id="Aty-l5-26p"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Type ya Name" borderStyle="roundedRect" placeholder="Put yo text hea" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oZf-jP-QVu">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oZf-jP-QVu">
                                 <accessibility key="accessibilityConfiguration" hint="Type your text here"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
